@@ -11,6 +11,8 @@ URL:		https://launchpad.net/aafigure/
 BuildRequires:	python-devel
 BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.219
+Suggests:	python-PIL >= 1.1.7
+Suggests:	python-ReportLab
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
