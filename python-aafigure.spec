@@ -10,7 +10,7 @@ Source0:	http://pypi.python.org/packages/source/a/aafigure/aafigure-%{version}.t
 URL:		https://launchpad.net/aafigure/
 BuildRequires:	python-devel
 BuildRequires:	rpm-pythonprov
-BuildRequires:	rpmbuild(macros) >= 1.219
+BuildRequires:	rpmbuild(macros) >= 1.710
 Suggests:	python-PIL >= 1.1.7
 Suggests:	python-ReportLab
 BuildArch:	noarch
